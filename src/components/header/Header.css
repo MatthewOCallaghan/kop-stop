@@ -1,0 +1,17 @@
+
+
+#header {	
+	background-image: url("https://i.pinimg.com/originals/83/7a/9d/837a9d31fbb3c0608d6266a4a1d987ee.jpg");
+	height: 100vh;
+	filter: brightness(55%);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro {
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 40%;
+	height: 100%;
+	margin-left: 10%;
+}

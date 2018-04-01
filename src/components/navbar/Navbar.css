@@ -1,0 +1,8 @@
+.navbar-toggler, .navbar-toggler:hover {
+  border-color: transparent !important; /* Removes border color */
+}
+/*.navbar-default, .navbar-toggler, .icon-bar {
+  background-color: black; /* Changes regular toggle color */
+/*
+.navbar-default, .navbar-toggler, .icon-bar:hover {
+  background-color: red; /* Changes toggle color on hover */
