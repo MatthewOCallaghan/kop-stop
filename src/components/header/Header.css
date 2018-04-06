@@ -1,17 +1,38 @@
-
-
 #header {	
 	background-image: url("https://i.pinimg.com/originals/83/7a/9d/837a9d31fbb3c0608d6266a4a1d987ee.jpg");
 	height: 100vh;
-	filter: brightness(55%);
+	filter: brightness(70%);
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .intro {
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.7);
 	width: 40%;
 	height: 100%;
 	margin-left: 10%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	padding: 0 2.5%;
+	text-align: justify;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 680px) {
+  .intro {
+    width: 60%;
+    margin: auto;
+  }
+}
+
+h1 {
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 70px;
+}
+
+.red {
+	color: rgb(255,0,0);
 }

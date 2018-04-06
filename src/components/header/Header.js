@@ -3,18 +3,13 @@ import './Header.css';
 
 const Header = () => {
 	return (
-			<div id='header'>
+			<header id='header'>
 				<div className="intro">
-					<div className="vertically-centre">
-						<h2 className="signature">1 Welcome to</h2>
-						<h2 className="signature">2 Welcome to</h2>
-						<h2 className="signature">3 Welcome to</h2>
-						<h2 className="signature">4 Welcome to</h2>
-						<h2 className="signature">5 Welcome to</h2>
-						<h2 className="signature">6 Welcome to</h2>
-					</div>
+					<h2 className="signature">Welcome to</h2>
+					<h1 className="shine"><span className="red">Kop</span> Stop</h1>
+					<p>With over one hundred different sets of lyrics, we're the home of all the greatest songs and chants to ever have been belted out on the Anfield Kop in support of Liverpool Football Club.</p>
 				</div>
-			</div>
+			</header>
 	);
 }
 
