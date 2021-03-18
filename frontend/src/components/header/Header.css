@@ -1,0 +1,45 @@
+#header {	
+	background-image: url("images/background.jpg");
+	height: 100vh;
+	filter: brightness(80%);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.intro {
+	background-color: rgba(255, 255, 255, 0.75);
+	width: 40%;
+	height: 100%;
+	margin-left: 10%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	padding: 0 2.5%;
+	padding-top: 3.125rem;
+	text-align: justify;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.kop-stop-title {
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 10vw;
+	line-height: 1;
+	text-transform: uppercase;
+}
+
+@media (max-width: 680px) {
+  .intro {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+  }
+   .kop-stop-title {
+   		font-size: 14vw;
+   }
+}
+
+.red {
+	color: rgb(255,0,0);
+}

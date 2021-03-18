@@ -1,0 +1,18 @@
+.navbar-toggler {
+  border-color: transparent !important;
+  outline: none !important;
+}
+
+#navbar li a {
+	color: black;
+}
+
+#navbar li a:hover {
+	color: red !important;
+	font-style: normal;
+}
+
+#logo {
+	font-family: 'Rubik Mono One', sans-serif;
+	font-style: normal;
+}

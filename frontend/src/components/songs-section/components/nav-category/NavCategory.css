@@ -1,0 +1,36 @@
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+.white-hover:hover {
+	color: white !important;
+}
+
+.limegreen-hover:hover {
+	color: limegreen !important;
+}
+
+.green-hover:hover {
+	color: green !important;
+}
+
+.darkorange-hover:hover {
+	color: darkorange !important;
+}
+
+.deepskyblue-hover:hover {
+	color: deepskyblue !important;
+}
+
+.mediumblue-hover:hover {
+	color: mediumblue !important;
+}
+
+.slategrey-hover:hover {
+	color: slategrey !important;
+}
+
+.gold-hover:hover {
+	color: gold !important;
+}

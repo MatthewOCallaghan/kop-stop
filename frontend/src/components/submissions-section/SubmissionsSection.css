@@ -1,0 +1,11 @@
+#submissions-section {
+	color: white;
+}
+
+.submission {
+	background-color: white;
+	color: black;
+	box-shadow: 0 2px 2px 2px rgba(255, 0, 0, 0.6);
+	padding: 0.3125rem;
+	width: 100%;
+}

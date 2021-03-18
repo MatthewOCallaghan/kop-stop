@@ -1,0 +1,16 @@
+#searchfield {
+	outline: none;
+  	border: none !important;
+  	-webkit-box-shadow: none !important;
+  	-moz-box-shadow: none !important;
+  	box-shadow: none !important;
+  	margin: 0.9375rem auto;
+  	width: 400px;
+  	/*width: 75%;*/
+}
+
+@media (max-width: 530px) {
+  	#searchfield {
+    	width: 100%;
+	}
+}

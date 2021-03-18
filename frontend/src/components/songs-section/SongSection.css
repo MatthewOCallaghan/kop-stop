@@ -1,0 +1,28 @@
+#nav-categories {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+#nav-categories a, #nav-categories p {
+	display: inline;
+	margin: 0.625rem;
+	color: black;
+}
+
+#nav-categories a:hover {
+	cursor: pointer;
+	font-style: italic;
+}
+
+#instruction, #loading-message, #no-search-results-message {
+	width: 100%;
+	text-align: center;
+}
+
+#no-search-results-message a {
+	color: white;
+}

@@ -1,0 +1,64 @@
+html {
+	
+}
+
+@media (max-width: 400px) {
+
+	html {
+		font-size: 75%;
+	}
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: black;
+}
+
+.signature {
+	font-family: 'Mr Dafoe', cursive;
+}
+
+.vertically-centre {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.no-bottom-margin {
+	margin-bottom: 0;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.red {
+	color: red;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+h1 {
+	font-size: 4.375em;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+a {
+	color: red;
+	text-decoration: none !important;
+}
+
+a:hover {
+	font-style: italic;
+}
+
+p {
+	font-size: 1rem;
+}

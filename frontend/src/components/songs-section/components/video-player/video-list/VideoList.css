@@ -1,0 +1,51 @@
+.video-list {
+	display: flex;
+	flex-wrap: nowrap;
+	background-color: grey;
+	border-radius: 0.5rem;
+	padding: 0.2rem 0;
+	overflow: auto;
+}
+
+/* style={index%2 ? {backgroundColor: '#ACACAC'} : {backgroundColor: '#4E4E4E'}}*/
+
+.light {
+	background-color: #ACACAC;
+}
+
+.dark {
+	background-color: #4E4E4E;
+}
+
+.video-details-selected, .video-details-unselected {
+	border-radius: 0.2rem;
+	margin: 0.3rem 0.5rem;
+	padding: 0.3rem;
+}
+
+.video-details-selected span, .video-details-unselected span{
+	display: block;
+}
+
+.video-details-selected {
+	background-color: FireBrick;
+}
+
+.video-details-unselected {
+	cursor: pointer;
+}
+
+.video-details-unselected:hover {
+	background-color: red;
+}
+
+.contributor-name {
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.date-added {
+	color: white;
+	font-size: 0.65rem;
+}
